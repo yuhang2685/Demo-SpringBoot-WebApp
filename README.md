@@ -7,12 +7,12 @@ In this demo we supply a quick-start template with commented explanation for con
 
 Big Picture:
 - In localhost:8080/home.jsp we fill-in a form and submit, 
-  which contains all fields for an user profile object. Then it directs the request with parameter object to the controller;
+  which contains all fields for an user profile object. Then it directs the request with the parameter object to the controller;
 - Alternatively we can directly input url localhost:8080/createProfile with object fields, 
-  then it directs the request with parameter object to the controller;
+  then it directs the request with the parameter object to the controller;
 - In ProfileController.java resides the controller with methods to handle requests.
   The method is implemented either by "dispatch servlet" or "ModelAndView".
-  The method forward the object to displayProfile.jsp (VIEW) for showing;
+  The method forwards the object to displayProfile.jsp (VIEW) for showing;
 - In application.properties it specifies the prefix and suffix for views.
 
 Future Work: Expand this template with front-end construction using Modern JS framework Angular6.
