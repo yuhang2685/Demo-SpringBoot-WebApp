@@ -6,8 +6,8 @@ Introduction:
 In this demo we supply a quick-start template with commented explanation for constructing a web service using Spring Boot.
 
 Big Picture:
-- In localhost:8080/home.jsp we fill-in a form and submit for user profile, 
-  which contains all fields for an object. Then it directs the request with parameter object to the controller;
+- In localhost:8080/home.jsp we fill-in a form and submit, 
+  which contains all fields for an user profile object. Then it directs the request with parameter object to the controller;
 - Alternatively we can directly input url localhost:8080/createProfile with object fields, 
   then it directs the request with parameter object to the controller;
 - In ProfileController.java resides the controller with methods to handle requests.
