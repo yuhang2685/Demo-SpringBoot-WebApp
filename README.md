@@ -3,19 +3,20 @@
 Author: Dr. YUHANG ZHAO
 
 Introduction: 
-In this demo we supply a quick-start template with commented explanation for constructing a web service using Spring Boot.
+In this demo we supply a quick-start code base with explanation for constructing a web service using Spring Boot.
 
 Big Picture:
-- In localhost:8080/home.jsp we fill-in a form and submit, 
-  which contains all fields for an user profile object. Then it directs the request with the parameter object to the controller;
-- Alternatively we can directly input url localhost:8080/createProfile with object fields, 
-  then it directs the request with the parameter object to the controller;
-- In ProfileController.java resides the controller with methods to handle requests.
-  The method is implemented either by "dispatch servlet" or "ModelAndView".
-  The method forwards the object to displayProfile.jsp (VIEW) for showing;
-- In application.properties it specifies the prefix and suffix for views.
+- In localhost:8080/home.jsp we fill-in a form and submit the request, 
+  which contains all fields for an user profile object. 
+  Then it directs the request to the controller;
+- Alternatively we can directly input the url as localhost:8080/createProfile appended with object fields, 
+  then it directs the request to the controller;
+- In ProfileController.java resides the controller with methods to handle particular requests.
+  Methods are can be implemented by either "dispatch servlet" or "ModelAndView".
+  Methods forward the results to displayProfile.jsp (VIEW) for displaying;
+- application.properties specifies the configurations, e.g., prefix and suffix for views.
 
-Future Work: Expand this template with front-end construction using Modern JS framework Angular6.
+Future Work: Expand with front-end code base using Modern JS frameworks.
 
 System Configuration:
 - Windows 7
