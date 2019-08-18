@@ -8,7 +8,7 @@ In this demo we supply a quick-start code base with explanation for constructing
 Big Picture:
 - In localhost:8080/home.jsp we fill-in a form and submit the request, 
   which contains all fields for an user profile object. 
-  Then it directs the request to the controller;
+  Spring directs the request to the controller;
 - Alternatively we can directly input the url as localhost:8080/createProfile appended with object fields, 
   then it directs the request to the controller;
 - In ProfileController.java resides the controller with methods to handle particular requests.
