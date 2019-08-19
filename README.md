@@ -21,5 +21,6 @@ Future Work: Expand with front-end code base using Modern JS frameworks.
 System Configuration:
 - Windows 7
 - Spring Tool Suite 3.9.9.RELEASE
+- Spring Boot v2.1.7.RELEASE
 
 Reference: "Spring Boot Tutorials | Full Course" by Telusko. https://www.youtube.com/watch?v=35EQXmHKZYs
