@@ -24,7 +24,21 @@ it generates `HTML` output that the client's browser can interpret.
 - The `Controller` (input logic) is responsible for handling user requests 
 and building an appropriate model and passes it to the view for rendering.
 
-### Overview:
+
+### Overview
+#### DispatcherServlet
+![DispatcherServlet](https://github.com/yuhang2685/Demo-SpringBoot-WebApp/blob/master/spring_dispatcherservlet.png)
+
+- After receiving an `HTTP` request, `DispatcherServlet` consults the `HandlerMapping` to call the appropriate `Controller`.
+
+- The `Controller` takes the request and calls the appropriate `service` methods based on used `GET` or `POST` method. 
+The `service` method will set `model` data based on defined business logic and returns `view` name to the `DispatcherServlet`.
+
+- The `DispatcherServlet` will take help from `ViewResolver` to pickup the defined view for the request.
+
+- Once view is finalized, The `DispatcherServlet` passes the `model` data to the `view` which is finally rendered on the browser.
+
+### Working mechanism
 - In `localhost:8080/home.jsp` we fill-in a form and submit the request 
   which contains all fields for an user profile object. 
   Spring Boot directs the request with arguments to CONTROLLER (annotated by `@Controller`);
