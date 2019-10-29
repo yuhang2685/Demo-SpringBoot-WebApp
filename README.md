@@ -4,6 +4,7 @@
 
 ### Introduction
 In this demo we explore for how to build a simple web service using `SpringBoot MVC` without `web.xml`. 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/MVC-basic.svg/320px-MVC-basic.svg.png)
 
 ### Overview
 - In `localhost:8080/home.jsp` (`VIEW`) we fill-in a form and submit the request 
